@@ -1,0 +1,173 @@
+@import url(./global.css);
+
+
+#container{
+    width: auto;
+    height: 90vh;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+#lado-esquerdo{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+#lado-direito{
+    display: flex;
+    align-items: center;
+    
+    }
+#logo{
+    width: 35px;
+    height: 35px;
+    background: #458FF6;
+    border-radius: 30px;
+     
+}
+#li{
+    
+    display: flex;
+    gap:30px;
+    list-style-type: none;
+    font-size: 18px;
+}
+main{
+    width:100vw;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#lado-esquerdo-main{
+ height: 400px;
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+}
+#lado-direito-main{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+#botao-consulta{
+width: 200px;
+height: 56px;
+border-radius: 55px;
+border: none;
+background: #458FF6;
+color: white;
+
+}
+#h1-style{
+    font-size: 58px;
+}
+#h2-style{
+    font-size: 31px;
+    font-style: light;
+     line-height: 32px;
+     color: #7D7987;
+}
+#main-2{
+    width: auto;
+    height: 300px;   
+    justify-items: center;
+   
+}
+#traco{
+    width: 56px ;
+    height: 2px;
+    background: black;
+    
+}
+#first-titulo{
+    font-size: 36px;
+}
+
+#second-titulo{
+    color: #7D7987;
+    font-size: 22px;
+    
+}
+#parte-cima{
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+#parte-cima{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ 
+
+#first-land{
+display: flex;
+gap: 40px;
+margin-top: 50px;
+}
+
+#second-land{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+#pag-one{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#pag-two{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#pag-three{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#pag-four{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#pag-five{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#pag-six{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#pag{
+    color: #7D7987;
+}
+
+
+#botao-main2{
+    width: 200px ;
+    height: 60px;
+    background:white;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+}
+ 
+ 
