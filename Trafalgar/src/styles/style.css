@@ -1,0 +1,274 @@
+@import url(./global.css);
+
+
+#container{
+    width: auto;
+    height: auto;
+    
+}
+ 
+#img-logo{
+    width: 150px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+#lado-esquerdo{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+#lado-direito{
+    display: flex;
+    align-items: center;
+    
+    }
+#li{
+    display: flex;
+    gap:30px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #1F1534;
+    cursor: pointer;
+}
+li:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    color: #458FF6;
+
+}
+main{
+    width:100vw;
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#lado-esquerdo-main{
+ height: 400px;
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+ align-items: center;
+ justify-content: center;
+
+}
+#lado-direito-main{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+#botao-consulta{
+width: 200px;
+height: 56px;
+border-radius: 55px;
+border: none;
+background: #458FF6;
+color: white;
+cursor: pointer;
+
+}
+#botao-consulta:hover{
+background: white;
+transform: scale(1.05);
+transition: 1s;
+color: #458FF6;
+border: 2px solid #458FF6;
+}
+ 
+#h1-style{
+    font-size: 48px;
+}
+#p2-style{
+    font-size: 21px;
+    font-style: light;
+     line-height: 32px;
+     color: #7D7987;
+}
+#main-2{
+    width: auto;
+    justify-items: center;
+    margin-left: 10px;
+     
+}
+#traco{
+    width: 56px ;
+    height: 2px;
+    background: black;
+    
+}
+#first-titulo{
+    font-size: 36px;
+}
+
+#second-titulo{
+    color: #7D7987;
+    font-size: 22px;
+    
+}
+#parte-cima{
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+#parte-cima{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+  
+#first-land{
+display: flex;
+gap: 40px;
+margin-top: 50px;
+}
+
+#second-land{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+   
+}
+
+#pag-one{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    box-shadow:  1px 1px 1px 1px;
+    justify-items: center;
+     align-content: center;
+     cursor: pointer;
+    
+}
+#pag-one:hover{
+     transition: .6s;
+     transform: scale(1.05);
+}
+#pag{
+    color: #7D7987;
+    font-size: 23px;
+}
+
+
+#botao-main2{
+    width: 200px ;
+    height: 60px;
+    background:white;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+    font-size: 15px;
+    cursor: pointer;
+}
+#titulo-one{
+    font-size: 40px;
+}
+#botao-ajuste{
+    justify-self: center;
+    margin-top: 50px;
+    
+}
+#botao-main2:hover{
+    transform: scale(1.05);
+    transition: 1s;
+   background: #458FF6;
+  
+}
+#main-3{
+    width: auto;
+    height: 400px;
+    margin-top: 50px;
+   justify-content: space-evenly;
+    display: flex;
+
+
+}
+#lado-esquerdo-main3{
+    align-items: center;
+ }
+#lado-direito-main3{
+   align-content: center;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#botao-main-3{
+    width: 200px;
+    height: 60px;
+    background: white;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+    font-size: 15px;
+    cursor: pointer;
+}
+#div-botao-main-3{
+    margin-top: 30px;
+}
+#botao-main-3:hover{
+     background: #458FF6;
+     transform: scale(1.05);
+     transition: 1s;
+}
+#traco-main3{
+        width: 56px ;
+        height: 2px;
+        background: black;
+}
+#foto-grande-main3{
+    width: 600px;
+    align-items: center;
+     
+}
+#main-4{
+    display: flex;
+    width: auto;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+     
+}
+
+#div-botao-main-4{
+    width: 200px;
+    height: 60px;
+    background: white;
+     border-radius: 55px;
+     border: 2px solid #458FF6;  
+     margin-top: 40px; 
+     align-content: center; 
+    
+}
+  
+#div-botao-main-4:hover{
+     background: #458FF6;
+     transform: scale(1.05);
+     transition: 1s;
+}
+#traco-main4{
+    width: 56px ;
+    height: 2px;
+    background: black;
+   margin: 10px;
+}
+#botao-main-4{ 
+    background: none;
+    border: none;
+      
+}
+#lado-direito-main4{
+display: flex;
+gap: 10px;
+flex-direction: column;
+}
+
+#foto-grande-main4{
+width: 600px;
+}
